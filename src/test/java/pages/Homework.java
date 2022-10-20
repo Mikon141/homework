@@ -9,6 +9,8 @@ public class Homework {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\mikon\\Downloads\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+
+
         driver.get("https://www.newegg.com/");
         System.out.println(driver.getTitle());
     }
